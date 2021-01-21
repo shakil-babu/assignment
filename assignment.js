@@ -1,8 +1,4 @@
 
-
-
-
-
 // kilometer to meter
 function kilometerToMeter(kilometer){
     if(kilometer <=0){
@@ -12,13 +8,11 @@ function kilometerToMeter(kilometer){
         return meter ;
     }
 }
-let Meter= kilometerToMeter(-199);
+let Meter= kilometerToMeter(10);
 console.log(Meter);
 
 
-
 // budget calculator
-
 function budgetCalculator(numberOfWatch, numberOfPhone, numberOfLaptop){
     if(numberOfWatch <= 0 || numberOfPhone <= 0 || numberOfPhone <=0){
         return 'Invalid input number!'
@@ -31,15 +25,11 @@ function budgetCalculator(numberOfWatch, numberOfPhone, numberOfLaptop){
     }
  
 }
-
-let total_price = budgetCalculator(2,-1,5);
+let total_price = budgetCalculator(2,9,5);
 console.log(total_price);
 
 
-
-
 // hotel cost
-
 function hotelCost(day){
     let totalHotelCost ;
     if(day <=10 && day>=1){
@@ -53,16 +43,11 @@ function hotelCost(day){
     }
     return totalHotelCost ;
 }
-
 let totalCost = hotelCost(13);
 console.log(totalCost);
 
 
-
-
-
 // mega friend
-
 function megaFriend(friends){
     if(friends.length == 0){
         return 'Emty array is not allowed!'
@@ -76,6 +61,5 @@ function megaFriend(friends){
         return mega_friend ;
     }
 }
-
 let largeFriend = megaFriend(['Shakil Babu','Torikus Sadik Raihan','Fahim Morshed']);
 console.log(largeFriend);
