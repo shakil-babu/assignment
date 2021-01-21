@@ -1,3 +1,5 @@
+// https://github.com/Shakil-Babu/assignment
+
 
 // kilometer to meter
 function kilometerToMeter(kilometer){
@@ -8,7 +10,7 @@ function kilometerToMeter(kilometer){
         return meter ;
     }
 }
-let Meter= kilometerToMeter(10);
+let Meter= kilometerToMeter(12);
 console.log(Meter);
 
 
@@ -20,13 +22,13 @@ function budgetCalculator(numberOfWatch, numberOfPhone, numberOfLaptop){
         let watchPrice = numberOfWatch * 50 ;
         let phonePrice = numberOfPhone * 100 ;
         let laptopPrice = numberOfLaptop * 500 ;
-        let totalPrice = watchPrice + phonePrice + laptopPrice ;
-        return totalPrice ;
+        let totalBudget = watchPrice + phonePrice + laptopPrice ;
+        return totalBudget ;
     }
  
 }
-let total_price = budgetCalculator(2,9,5);
-console.log(total_price);
+let total_budget = budgetCalculator(2,9,5);
+console.log(total_budget);
 
 
 // hotel cost
